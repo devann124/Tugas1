@@ -7,10 +7,10 @@ public class MainApp {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        MenuItem nasiGoreng = new MenuItem("Seblak special", 15000);
-        MenuItem mieAyam = new MenuItem("Seblak hemat", 12000);
+        MenuItem Seblak special = new MenuItem("Seblak special", 15000);
+        MenuItem Seblak hemat = new MenuItem("Seblak hemat", 12000);
         MenuItem esTeh = new MenuItem("Es Teh", 5000);
-        MenuItem kopi = new MenuItem("Joshua", 8000);
+        MenuItem Joshua = new MenuItem("Joshua", 8000);
 
         Order order = new Order();
 
