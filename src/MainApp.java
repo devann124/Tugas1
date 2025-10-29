@@ -7,10 +7,10 @@ public class MainApp {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        MenuItem nasiGoreng = new MenuItem("Nasi Goreng", 15000);
-        MenuItem mieAyam = new MenuItem("Mie Ayam", 12000);
+        MenuItem nasiGoreng = new MenuItem("Seblak special", 15000);
+        MenuItem mieAyam = new MenuItem("Seblak hemat", 12000);
         MenuItem esTeh = new MenuItem("Es Teh", 5000);
-        MenuItem kopi = new MenuItem("Kopi Hitam", 8000);
+        MenuItem kopi = new MenuItem("Joshua", 8000);
 
         Order order = new Order();
 
@@ -18,10 +18,10 @@ public class MainApp {
         char ulang;
         do {
             System.out.println("\nPilih menu:");
-            System.out.println("1. Nasi Goreng - Rp15.000");
-            System.out.println("2. Mie Ayam - Rp12.000");
+            System.out.println("1. Seblak special - Rp15.000");
+            System.out.println("2. Seblak hemat - Rp12.000");
             System.out.println("3. Es Teh - Rp5.000");
-            System.out.println("4. Kopi Hitam - Rp8.000");
+            System.out.println("4. Joshua - Rp8.000");
             System.out.print("Pilih (1-4): ");
             int pilih = input.nextInt();
 
